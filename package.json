@@ -1,0 +1,37 @@
+{
+  "name": "digit-recognition-server",
+  "version": "0.0.1",
+  "description": "Server for digit recognition",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "Vofus <vofuss@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "digits-recognition-neural-network": "0.0.12",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nodemon": "^1.18.7",
+    "prettier": "1.15.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "env": {
+      "node": true
+    }
+  },
+  "prettier": {
+    "printWidth": 100
+  }
+}
