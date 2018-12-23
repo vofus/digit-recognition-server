@@ -1,6 +1,6 @@
 const { Network, DigitRecognition } = require("digits-recognition-neural-network");
 const path = require("path");
-const modelPath = "../models/network.json";
+const modelPath = "../models/network_optimize.json";
 let recognizer = null;
 
 /**
